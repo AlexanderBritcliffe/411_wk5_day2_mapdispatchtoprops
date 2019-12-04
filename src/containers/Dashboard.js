@@ -18,4 +18,4 @@ const mapDispatchToProps = (dispatch) => {
 
 // add mapDispatchToProps function here
 
-export default connect(mapStateToProps)(Dashboard)
+export default connect(mapStateToProps, mapDispatchToProps)(Dashboard)
